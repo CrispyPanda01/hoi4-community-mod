@@ -1220,3 +1220,8 @@ CRS = {
     color_ui = rgb { 12 71 18 }
 }
 
+
+CIR = {
+	color = rgb { 62 113 181 }
+	color_ui = rgb { 53 73 100 }
+}

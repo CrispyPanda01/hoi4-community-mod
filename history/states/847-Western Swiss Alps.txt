@@ -1,0 +1,23 @@
+
+state={
+	id=847
+	name="STATE_847"
+	manpower = 178429
+	state_category = pastoral
+	resources={
+	}
+	history={
+		add_core_of = CIR
+		victory_points = { 778 1 }
+		# Annecy
+		owner = CIR
+		buildings = {
+			infrastructure = 1 
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		636 778 3612 9587 9603 9618
+	}
+	local_supplies=0.0 
+}

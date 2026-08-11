@@ -1,0 +1,28 @@
+state = {
+	id = 1087
+	name = "STATE_1087"
+	manpower = 0
+	state_category = rural
+	history = {
+		add_core_of = CIR
+		victory_points = { 678 5 }
+		victory_points = { 9503 5 }
+		buildings = {
+			678 = {
+				bunker = 10
+
+			}
+			6529 = {
+				bunker = 10
+			}
+			9503 = {
+				bunker = 10
+			}
+		}
+		owner = CIR
+	}
+	provinces = {
+		678 1346 6529 9503
+	}
+	local_supplies = 0.0
+}

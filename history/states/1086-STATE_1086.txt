@@ -1,0 +1,15 @@
+state = {
+	id = 1086
+	name = "STATE_1086"
+	manpower = 0
+	state_category = rural
+	history = {
+		add_core_of = CIR
+		victory_points = { 9642 5 }
+		owner = CIR
+	}
+	provinces = {
+		521 698 3646 3666 6698 9642
+	}
+	local_supplies = 0.0
+}
