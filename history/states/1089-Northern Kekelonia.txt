@@ -1,0 +1,29 @@
+state={
+	id=1089
+	name="STATE_1089"
+	
+	history={
+		owner = KEK
+		
+		victory_points = {
+			7624 10 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = KEK
+		add_core_of = SOV
+
+	}
+	
+	provinces={
+		1450 3668 3711 4458 4463 4545 7554 7624 9645 
+	}
+	manpower=2640000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

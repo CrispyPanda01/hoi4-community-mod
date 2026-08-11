@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_KEK_big_man_tyronne"
+		texturefile = "gfx/leaders/KEK/portrait_KEK_big_man_tyronne.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KEK_big_man_tyronne_small"
+		texturefile = "gfx/interface/ideas/idea_KEK_big_man_tyronne.dds"
+	}
+}

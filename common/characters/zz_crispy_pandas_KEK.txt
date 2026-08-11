@@ -1,0 +1,17 @@
+characters = {
+
+	KEK_big_man_tyronne = {
+		name = "Big Man Tyronne"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KEK_big_man_tyronne
+				small = GFX_portrait_KEK_big_man_tyronne_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

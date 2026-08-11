@@ -1,0 +1,35 @@
+state={
+	id=1000
+	name="STATE_1000"
+	
+	history={
+		owner = KEK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1896 5 
+		}
+		victory_points = {
+			4660 3
+		}
+		
+		victory_points = {
+			4825 5
+		}
+		add_core_of = KEK
+	}
+	
+	resources={
+		steel=6.000
+	}
+	provinces={
+		1896 4660 4755 4825 6642 6997 12793 
+	}
+	manpower=3215857
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}

@@ -1,0 +1,31 @@
+state={
+	id=230
+	name="STATE_230"
+	
+	history={
+		owner = KEK
+		victory_points = {
+			12320 20
+		}
+		victory_points = {
+			11674 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = KEK
+
+	}
+	
+	provinces={
+		1467 1539 3564 11674 11708 12320 12380 12450 13123 
+	}
+	manpower=5250082
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}
