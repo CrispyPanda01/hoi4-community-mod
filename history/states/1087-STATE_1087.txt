@@ -1,13 +1,14 @@
 state = {
 	id = 1087
 	name = "STATE_1087"
-	manpower = 0
+	manpower = 467000
 	state_category = rural
 	history = {
 		add_core_of = CIR
 		victory_points = { 678 5 }
 		victory_points = { 9503 5 }
 		buildings = {
+		infrastructure = 3
 			678 = {
 				bunker = 10
 

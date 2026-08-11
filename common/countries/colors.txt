@@ -1225,3 +1225,8 @@ CIR = {
 	color = rgb { 62 113 181 }
 	color_ui = rgb { 53 73 100 }
 }
+
+FHA = {
+	color = rgb { 111 165 237 }
+	color_ui = rgb { 53 73 100 }
+}
