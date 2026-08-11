@@ -5,6 +5,7 @@ state = {
     state_category = city
     resources = {
         steel = 6
+		cocaine = 18
     }
     history = {
         owner = MEX

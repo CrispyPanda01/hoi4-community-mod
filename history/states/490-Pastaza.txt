@@ -6,6 +6,10 @@ state = {
 	
 	state_category = pastoral
 
+	resources = {
+		cocaine = 14
+	}
+
 	history = {
 		add_core_of = FHA
 		owner = FHA

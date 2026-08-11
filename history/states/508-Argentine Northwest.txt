@@ -5,6 +5,10 @@ state = {
 	
 	state_category = town
 
+	resources = {
+		cocaine = 9
+	}
+
 	history = {
 		add_core_of = FHA
 

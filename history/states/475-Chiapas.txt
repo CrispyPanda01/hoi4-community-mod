@@ -3,6 +3,9 @@ state = {
     name = STATE_475
     manpower = 805874
     state_category = rural
+    resources = {
+        cocaine = 12
+    }
     history = {
         owner = MEX
         buildings = {
