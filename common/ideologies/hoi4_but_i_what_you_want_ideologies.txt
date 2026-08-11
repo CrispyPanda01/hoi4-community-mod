@@ -1,0 +1,17 @@
+ideologies = {
+    traditionalism = {
+        types = {
+            cristero_christianity = {
+            }
+        }
+        color = { 34 35 110 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+    }
+}

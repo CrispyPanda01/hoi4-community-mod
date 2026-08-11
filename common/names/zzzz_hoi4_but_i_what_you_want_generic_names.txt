@@ -1,0 +1,11 @@
+CRS = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes" }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Emma" "Sofia" "Marie" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon" }
+}
+

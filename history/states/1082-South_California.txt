@@ -1,0 +1,13 @@
+state = {
+    id = 1082
+    name = STATE_1082
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = MEX
+        add_core_of = MEX
+        add_claim_by = CRS
+        victory_points = { 12736 1 }
+    }
+    provinces = { 1904 8119 12736 }
+}
