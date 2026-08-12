@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+		SPR_fuck_you_no_division_no_nothing = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				local_manpower = -1
+				conscription_factor = -1
+				consumer_goods_factor = 1
+				license_production_speed = -1
+				equipment_conversion_speed = -1
+				production_factory_efficiency_gain_factor = -1
+				production_factory_max_efficiency_factor = -1
+				experience_gain_army = -100
+				experience_gain_army_factor = -1
+			}
+		}
+	}	
+}
