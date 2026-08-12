@@ -8,4 +8,13 @@ spriteTypes = {
 		name = "GFX_portrait_KEK_big_man_tyronne_small"
 		texturefile = "gfx/interface/ideas/idea_KEK_big_man_tyronne.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_FHA_alfonso_l_pez_pumarejo"
+		texturefile = "gfx/leaders/FHA/portrait_FHA_alfonso_l_pez_pumarejo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FHA_alfonso_l_pez_pumarejo_small"
+		texturefile = "gfx/interface/ideas/idea_FHA_alfonso_l_pez_pumarejo.dds"
+	}
 }

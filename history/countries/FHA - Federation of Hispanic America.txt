@@ -23,3 +23,5 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 }
+
+recruit_character = FHA_alfonso_l_pez_pumarejo
