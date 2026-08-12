@@ -1,0 +1,23 @@
+state={
+	id=1094
+	name="STATE_1094"
+	provinces={
+		337 6405 9303 9321 
+	}
+		history = {
+		add_core_of = CLT
+
+		owner = CLT
+		add_core_of = CLT
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	manpower=123142
+	buildings_max_level_factor=1
+	state_category=pastoral
+	local_supplies=0
+}

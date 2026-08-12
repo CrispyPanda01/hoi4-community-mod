@@ -1,0 +1,25 @@
+state={
+	id=1093
+	name="STATE_1093"
+	provinces={
+		6062 13269 
+	}
+	history = {
+		
+
+		owner = CLT
+		add_core_of = CLT
+		add_core_of = ENG
+		add_core_of = SCO
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	manpower=12142343
+	buildings_max_level_factor=1
+	state_category=wasteland
+	local_supplies=0
+}

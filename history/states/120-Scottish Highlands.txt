@@ -1,0 +1,29 @@
+state={
+	id=120
+	name="STATE_120"
+	resources={
+		chromium=1
+		tungsten=16
+		aluminium=9
+	}
+history = {
+		
+
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = SCO
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	provinces={
+		131 284 3159 3178 3373 6046 6104 6205 9075 9090 11064 11161 11266 13270 
+	}
+	manpower=247873
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+}

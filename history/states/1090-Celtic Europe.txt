@@ -1,0 +1,24 @@
+state={
+	id=1090
+	name="STATE_1090"
+	provinces={
+		542 3552 3758 6536 6572 
+	}
+	history = {
+		add_core_of = CLT
+
+		owner = CLT
+		add_core_of = FRA
+		add_core_of = BRI
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	state_category=city
+	manpower=1231423
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,25 @@
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		coal=1
+	}
+		history = {
+		add_core_of = IRE
+
+		owner = IRE
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	provinces={
+		6289 6313 7394 9284 9310 9405 11237 11267 11334 
+	}
+	manpower=941400
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+}

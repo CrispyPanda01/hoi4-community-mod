@@ -1,0 +1,23 @@
+state={
+	id=1091
+	name="STATE_1091"
+	provinces={
+		6526 
+	}
+			history = {
+		add_core_of = CLT
+
+		owner = CLT
+		add_core_of = CLT
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	manpower=12314312
+		state_category=rural
+	buildings_max_level_factor=1
+	local_supplies=0
+}

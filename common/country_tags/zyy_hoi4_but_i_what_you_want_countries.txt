@@ -1,1 +1,3 @@
 CRS = "countries/CRS - Cristero Rebellion.txt"
+UAR = "countries/UAR - United Arab Republic.txt"
+CLT = "countries/CLT - Celtic Europe.txt"

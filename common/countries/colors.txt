@@ -1214,29 +1214,35 @@ GAL = {
     color = rgb { 195 72 17 }
     color_ui = rgb { 195 72 16 }
 }
+CIR = {
+    color = rgb { 62 113 181 }
+    color_ui = rgb { 53 73 100 }
+}
+FHA = {
+    color = rgb { 111 165 237 }
+    color_ui = rgb { 53 73 100 }
+}
+MTT = {
+    color = rgb { 101 109 120 }
+    color_ui = rgb { 53 73 100 }
+}
+KEK = {
+    color = rgb { 76 172 73 }
+    color_ui = rgb { 76 172 73 }
+}
 
 CRS = {
     color = rgb { 12 71 18 }
     color_ui = rgb { 12 71 18 }
 }
 
-
-CIR = {
-	color = rgb { 62 113 181 }
-	color_ui = rgb { 53 73 100 }
+UAR = {
+    color = rgb { 0 66 13 }
+    color_ui = rgb { 0 66 13 }
 }
 
-FHA = {
-	color = rgb { 111 165 237 }
-	color_ui = rgb { 53 73 100 }
+CLT = {
+    color = rgb { 60 160 102 }
+    color_ui = rgb { 60 160 102 }
 }
 
-MTT = {
-	color = rgb { 101 109 120 }
-	color_ui = rgb { 53 73 100 }
-}
-
-KEK = {
-	color = rgb { 76 172 73 }
-	color_ui = rgb { 76 172 73 }
-}

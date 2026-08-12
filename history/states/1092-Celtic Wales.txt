@@ -1,0 +1,24 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		311 407 3274 6363 11361 
+	}
+	history = {
+		add_core_of = CLT
+
+		owner = CLT
+		add_core_of = ENG
+		add_core_of = WAL
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	manpower=2321312
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category=town
+}

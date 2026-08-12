@@ -1,0 +1,22 @@
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		540 3422 3463 9562 11406 
+	}
+		history = {
+		add_core_of = ENG
+
+		owner = ENG
+
+		buildings = {
+			infrastructure = 1
+			#dockyard = 1
+		}
+		
+	}
+	manpower=1221013
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+}
