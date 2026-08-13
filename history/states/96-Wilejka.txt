@@ -6,9 +6,7 @@ state={
 	state_category = rural
 	
 	history={
-		victory_points = {
-			406 1
-		}
+		victory_points = { 406 1 }
 		owner = POL
 		buildings = {
 			infrastructure = 2
@@ -18,7 +16,7 @@ state={
 	}
 
 	provinces={
-		233 277 358 406 6340 9341 11391 
+		277 358 406 9341
 	}
 
 	local_supplies=0.0 
