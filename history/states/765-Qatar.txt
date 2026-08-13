@@ -5,8 +5,9 @@ state = {
 	state_category = pastoral
 
 	history = {
+		add_core_of = UAR
 		
-		owner = ENG
+		owner = UAR
 		add_core_of = QAT
 
 		victory_points = {

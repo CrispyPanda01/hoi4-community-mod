@@ -3,8 +3,9 @@ state= {
 	name = "STATE_856"
 	
 	history = {
+		add_core_of = UAR
 
-		owner = SAU
+		owner = UAR
 		add_core_of	= SAU
 
 		buildings = {

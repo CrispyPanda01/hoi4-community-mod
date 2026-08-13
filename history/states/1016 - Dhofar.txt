@@ -6,8 +6,9 @@ state = {
 	state_category = pastoral
 
 	history = {
+		add_core_of = UAR
 
-		owner = OMA
+		owner = UAR
 		add_core_of = OMA
 		add_core_of = FSA
 

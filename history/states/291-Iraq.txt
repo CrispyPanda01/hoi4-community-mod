@@ -10,8 +10,9 @@ state = {
 	}
 
 	history = {
+		add_core_of = UAR
 
-		owner = IRQ
+		owner = UAR
 		add_core_of = IRQ
 		add_claim_by = KUR
 
