@@ -1,0 +1,400 @@
+focus_tree = {
+	id = celtic_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CLT
+		}
+	}
+	
+	default = no
+
+
+
+	############################
+	##### INDUSTRY SECTION #####
+	############################
+
+	focus = {
+		id = CLT_Regroup_at_Eire
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+		focus = {
+		id = CLT_Augiers_Regime
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = CLT_Regroup_at_Eire
+	 }
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_Strengthen_the_Celtic_Faith
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = CLT_Augiers_Regime
+	 }
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+		focus = {
+		id = CLT_Back_to_Basics
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = CLT_Strengthen_the_Celtic_Faith
+	 }
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_The_Union_Broken
+		icon = GFX_goal_generic_consumer_goods
+		x = 3
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Regroup_at_Eire
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_We_will_unite_Someday
+		icon = GFX_goal_generic_consumer_goods
+		x = 5
+		y = 2
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_The_Union_Broken
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_The_One_Sympatheizer
+		icon = GFX_goal_generic_consumer_goods
+		x = 5
+		y = 3
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_We_will_unite_Someday
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_Offer_to_Ireland
+		icon = GFX_goal_generic_consumer_goods
+		x = 3
+		y = 4
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_The_One_Sympatheizer
+	 }
+	 
+	prerequisite = {
+	focus = CLT_question_of_Government
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+	IRE = {
+	country_event = {
+	id = revmon_ireland.1
+	days = 2
+	 }
+	  }
+		}
+	}
+	
+	focus = {
+		id = CLT_the_Gaellic_problem
+		icon = GFX_goal_generic_consumer_goods
+		x = 2
+		y = 2
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_The_Union_Broken
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_question_of_Government
+		icon = GFX_goal_generic_consumer_goods
+		x = 2
+		y = 3
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_the_Gaellic_problem
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_All_the_Arabs_fault
+		icon = GFX_goal_generic_consumer_goods
+		x = -3
+		y = 1
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Regroup_at_Eire
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_Europe_is_ours
+		icon = GFX_goal_generic_consumer_goods
+		x = -3
+		y = 2
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_All_the_Arabs_fault
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = CLT_Rebuild_Celtic_Forces
+		icon = GFX_goal_generic_consumer_goods
+		x = -3
+		y = 3
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Europe_is_ours
+	 }
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+}		
