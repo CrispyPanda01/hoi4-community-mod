@@ -1,0 +1,85 @@
+﻿
+
+add_namespace = alien
+
+# alien invasion
+country_event = {
+	id = alien.1
+	title = alien.1.t
+	desc = alien.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 1940.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}	
+
+	immediate = {
+		hidden_effect = {
+			ALI = {
+				transfer_state = 1096
+				add_manpower = 10000000
+				division_template = {
+					name = "Alien Division"
+					priority = 0
+					template_counter = 0
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }						
+					}
+				}				
+				1096 = {
+					add_core_of = ALI
+					create_unit = {
+						division = "name = \"Alien Division\" division_template = \"Alien Division\" start_experience_factor = 1"
+						owner = ALI
+						count = 120
+					
+					}					
+				}
+				add_ideas = {
+					ALI_op_very_op
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 100000
+					producer = ALI
+				}				
+			}
+			USA = {
+				declare_war_on = {
+					target = ALI
+					type = take_core_state
+				}				
+			}
+			every_country = {
+				declare_war_on = {
+					target = ALI
+					type = liberate_wargoal
+				}					
+			}
+		}
+	}
+
+	option = {
+		name = alien.1.a
+	}
+	option = {
+		name = alien.1.b
+	}
+}

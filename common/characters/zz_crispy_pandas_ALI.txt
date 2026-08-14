@@ -1,0 +1,17 @@
+characters = {
+
+	ALI_marvin_the_alien = {
+		name = "Marvin the Alien"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ALI_marvin_the_alien
+				small = GFX_portrait_ALI_marvin_the_alien_small
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

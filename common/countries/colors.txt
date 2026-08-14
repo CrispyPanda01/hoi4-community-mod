@@ -1246,3 +1246,8 @@ CLT = {
     color_ui = rgb { 60 160 102 }
 }
 
+
+ALI = {
+	color = rgb { 8 19 8 }
+	color_ui = rgb { 53 73 100 }
+}

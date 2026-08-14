@@ -1,0 +1,26 @@
+capital = 1096
+set_convoys = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "standard_templates"
+
+add_ideas = {
+}
+
+set_technology = {
+	infantry_weapons = 3
+}
+
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 0
+	democratic = 0
+	fascism = 100
+	communism = 0
+}
+recruit_character = ALI_marvin_the_alien

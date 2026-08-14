@@ -17,4 +17,13 @@ spriteTypes = {
 		name = "GFX_portrait_FHA_alfonso_l_pez_pumarejo_small"
 		texturefile = "gfx/interface/ideas/idea_FHA_alfonso_l_pez_pumarejo.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ALI_marvin_the_alien"
+		texturefile = "gfx/leaders/ALI/portrait_ALI_marvin_the_alien.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ALI_marvin_the_alien_small"
+		texturefile = "gfx/interface/ideas/idea_ALI_marvin_the_alien.dds"
+	}
 }
