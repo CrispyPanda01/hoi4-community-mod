@@ -1,0 +1,17 @@
+characters = {
+	FRA_napoleon={ #Non-Aligned Leader
+		name="Napoléon VI"
+		portraits={
+			civilian={
+				large=GFX_portraits_fra_napoleon_vi
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+}
+	

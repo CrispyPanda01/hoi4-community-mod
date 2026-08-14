@@ -1256,3 +1256,8 @@ BAL = {
 	color = rgb { 30 53 84 }
 	color_ui = rgb { 53 73 100 }
 }
+
+PAC = {
+	color = rgb { 148 25 42 }
+	color_ui = rgb { 53 73 100 }
+}

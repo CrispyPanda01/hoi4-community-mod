@@ -10,8 +10,9 @@ state = {
 	}
 
 	history = {
+		add_core_of = FRA
 
-		owner = LUX
+		owner = FRA
 		add_core_of = LUX
 
 		buildings = {
