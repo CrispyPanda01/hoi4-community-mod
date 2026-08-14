@@ -1,0 +1,161 @@
+﻿division_template = {
+	name = "Celtic Division"			# Infantry Brigade
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		support = {
+		recon = { x = 0 y = 0 } 	
+		engineer = { x = 0 y = 1 } 	
+		artillery = { x = 0 y = 0 } 	
+	}
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 6526
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 11361
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 11361
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 6363
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 337
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 9321
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 9303
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		name = "Celt Division - 1"
+		location = 3552
+		division_template = "Celtic Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+
+	######## No Naval OOB ########
+}
+
+
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CLT"
+		}
+		requested_factories = 3
+		progress = 0.31
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CLT" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+		#industrial_manufacturer = mio:SOV_mytishchy_machine_building_plant_organization
+	}
+}

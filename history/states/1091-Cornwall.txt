@@ -12,7 +12,11 @@ state={
 
 		buildings = {
 			infrastructure = 1
-			#dockyard = 1
+			dockyard = 1
+		6526 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
 		}
 		
 	}

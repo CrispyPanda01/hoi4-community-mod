@@ -1,0 +1,41 @@
+add_namespace = revmon_ireland 
+
+#IRE gets choice; Join Celtic Europe or war?
+country_event = {
+	id = revmon_ireland.1
+	title = revmon_ireland.1.t
+	desc = revmon_ireland.1.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+			factor = 80
+			modifier = {
+				has_government = traditionalism
+				factor = 0
+			}
+	}
+	name = revmon_ireland.1.a
+	CLT = {
+	annex_country = {
+	target = IRE
+	transfer_troops = yes
+	transfer_generals = yes
+	 }
+	   }
+	   
+	every_state = {
+	limit = {
+	is_core_of = IRE
+	 }
+	 add_core_of = CLT
+	   }
+	   
+	}
+	#decline
+	option = {
+		name = revmon_ireland.1.b
+	}
+}

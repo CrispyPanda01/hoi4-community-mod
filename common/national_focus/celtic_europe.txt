@@ -396,5 +396,294 @@ focus_tree = {
 			add_political_power = 120
 		}
 	}
+	
+focus = {
+		id = CLT_Europes_Longest_Day
+		icon = GFX_goal_generic_consumer_goods
+		x = -2
+		y = 4
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Back_to_Basics
+	 }
+	prerequisite = {
+	focus = CLT_Rebuild_Celtic_Forces
+		}
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+focus = {
+		id = CLT_Augier_Stands
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 5
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Europes_Longest_Day
+	 }
+	prerequisite = {
+	focus = CLT_Offer_to_Ireland
+		}
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+focus = {
+		id = CLT_Purge_Anti_Celtists
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 6
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Augier_Stands
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+focus = {
+		id = CLT_Kick_out_Bretons_from_Ireland
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 7
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Purge_Anti_Celtists
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			
+		start_border_war = {
+				change_state_after_war = yes
+			 	attacker = {
+			 		state = 134
+					num_provinces = 3
+			 		on_win = transfer_state = 119 
+					on_lose = 
+			 	}	
+			 	defender = {
+			 		state = 119
+					num_provinces = 1
+				}
+			 }
+		}
+	}
+	
+	focus = {
+		id = CLT_The_Belfast_scare
+		icon = GFX_goal_generic_consumer_goods
+		x = 6
+		y = 8
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+	controls_state = 119
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Kick_out_Bretons_from_Ireland
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+	119 = {
+	add_manpower = -132293
+	 }
+	 
+	ENG = {
+	remove_state_core = 119 
+	 }
+		}
+	}
+	
+	focus = {
+		id = CLT_Avenge_1920
+		icon = GFX_goal_generic_consumer_goods
+		x = 6
+		y = 9
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_The_Belfast_scare
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+	declare_war_on = {
+	target = ENG
+	type = annex_everything
+	 }
+		}
+	}
+	
+	focus = {
+		id = CLT_Ruled_Brittania
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 10
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+	ENG = {
+	is_subject_of = CLT
+	 }
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Avenge_1920
+	 }
+	prerequisite = {
+	focus = CLT_One_Struggle
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = CLT_Ally_the_IRA
+		icon = GFX_goal_generic_consumer_goods
+		x = 2
+		y = 8
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+	controls_state = 119
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Kick_out_Bretons_from_Ireland
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+    add_manpower = 5000
+		}
+	}
+	
+	focus = {
+		id = CLT_One_Struggle
+		icon = GFX_goal_generic_consumer_goods
+		x = 2
+		y = 9
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+	controls_state = 119
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Ally_the_IRA
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+    add_manpower = 5000
+		}
+	}
 
 }		
