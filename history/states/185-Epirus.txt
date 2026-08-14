@@ -12,6 +12,7 @@ state={
 	}
 
 	history={
+		add_core_of = BAL
 		victory_points = {
 			10203 1
 		}
@@ -21,7 +22,7 @@ state={
 		victory_points = {
 			1205 1
 		}
-		owner = GRE
+		owner = BAL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

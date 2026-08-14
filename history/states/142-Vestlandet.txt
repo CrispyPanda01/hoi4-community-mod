@@ -12,6 +12,7 @@ state={
 	}
 
 	history={
+		add_core_of = NOR
 		owner = NOR
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -36,7 +37,6 @@ state={
 		victory_points = {
 			9127 1
 		}
-		add_core_of = NOR
 	}
 
 	provinces={

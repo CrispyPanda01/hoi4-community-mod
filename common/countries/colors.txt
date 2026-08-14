@@ -1251,3 +1251,8 @@ ALI = {
 	color = rgb { 8 19 8 }
 	color_ui = rgb { 53 73 100 }
 }
+
+BAL = {
+	color = rgb { 30 53 84 }
+	color_ui = rgb { 53 73 100 }
+}

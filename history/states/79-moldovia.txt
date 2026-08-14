@@ -12,7 +12,8 @@ state=
 	
 	history=
 	{
-		owner = ROM
+		owner = BAL
+		add_core_of = BAL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

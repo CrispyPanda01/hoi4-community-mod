@@ -7,10 +7,11 @@ state={
 	}
 
 	history={
+		add_core_of = BAL
 		victory_points = {
 			9602 3 
 		}
-		owner = BUL
+		owner = BAL
 		add_core_of = BUL
 		buildings = {
 			infrastructure = 2
