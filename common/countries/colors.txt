@@ -1266,3 +1266,8 @@ ACG = {
 	color = rgb { 50 90 172 }
 	color_ui = rgb { 67 123 237 }
 }
+
+MEG = {
+	color = rgb { 72 81 99 }
+	color_ui = rgb { 67 123 237 }
+}

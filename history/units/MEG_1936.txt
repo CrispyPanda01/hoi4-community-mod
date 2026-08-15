@@ -1,0 +1,93 @@
+##### Division templates #####
+division_template = {
+	name = "Megasotan Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Frontier Guard Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	priority = 0
+}
+
+##### Megasota 1936 Order of Battle #####
+units = {
+	# Minnesota Command
+	division = {
+		name = "1st Megasotan Infantry Division"
+		location = 1866
+		division_template = "Megasotan Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2nd Megasotan Infantry Division"
+		location = 1866
+		division_template = "Megasotan Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "1st Minnesota Frontier Guard"
+		location = 1866
+		division_template = "Frontier Guard Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2nd Minnesota Frontier Guard"
+		location = 1866
+		division_template = "Frontier Guard Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	# North Dakota Command
+	division = {
+		name = "3rd Megasotan Infantry Division"
+		location = 1836
+		division_template = "Megasotan Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "North Dakota Frontier Guard"
+		location = 1836
+		division_template = "Frontier Guard Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	# South Dakota Command
+	division = {
+		name = "4th Megasotan Infantry Division"
+		location = 1747
+		division_template = "Megasotan Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "South Dakota Frontier Guard"
+		location = 1747
+		division_template = "Frontier Guard Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}

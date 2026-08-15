@@ -199,6 +199,22 @@
  ACG_DEF: "the American Constitutional Government"
  ACG_ADJ: "American"
  
+ MEG_neutrality: "Megasota"
+ MEG_neutrality_DEF: "Megasota"
+ MEG_neutrality_ADJ: "Megasotan"
+ MEG_democratic: "Megasota"
+ MEG_democratic_DEF: "Megasota"
+ MEG_democratic_ADJ: "Megasotan"
+ MEG_fascism: "Megasota"
+ MEG_fascism_DEF: "Megasota"
+ MEG_fascism_ADJ: "Megasotan"
+ MEG_communism: "Megasota"
+ MEG_communism_DEF: "Megasota"
+ MEG_communism_ADJ: "Megasotan"
+ MEG: "Megasota"
+ MEG_DEF: "Megasota"
+ MEG_ADJ: "Megasotan" 
+ 
  #####COSMETICS#####
  HOL_benelux_unified_democratic: "Heavenly Kingdom of the Eternal and Glorious Empire of the Thousand Seas Between The Union of Belgium, Luxembourg and The Netherlands Under the Social Republics of the Multitudes of Constituencies, Counties and States of The Benelux"
  HOL_benelux_unified_democratic_DEF: "the Heavenly Kingdom of the Eternal and Glorious Empire of the Thousand Seas Between The Union of Belgium, Luxembourg and The Netherlands Under the Social Republics of the Multitudes of Constituencies, Counties and States of The Benelux"
