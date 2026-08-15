@@ -1,0 +1,22 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		9783 9902 9919 
+	}
+	history={
+		owner = GRE
+		add_core_of = GRE
+		add_core_of = BUL
+		victory_points = { #Varna
+			9783 5
+		}
+		
+		victory_points = { #Burgas
+			9902 3
+		}
+	manpower=121324
+	state_category = pastoral
+	buildings_max_level_factor=1
+	local_supplies=0
+}

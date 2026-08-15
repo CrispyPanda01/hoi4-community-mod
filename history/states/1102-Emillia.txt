@@ -1,0 +1,25 @@
+state={
+	id=1102
+	name="STATE_1102"
+	provinces={
+		3773 3976 6790 9752 
+	}
+	history = {
+		owner = ITA
+		victory_points = { #Emilia
+			9752 5
+		}
+	
+		buildings = {
+			infrastructure = 4 #was: 7
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = ITA
+		add_core_of = PAP
+	}
+	manpower=11237859
+	state_category = town
+	buildings_max_level_factor=1
+	local_supplies=0
+}

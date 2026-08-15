@@ -8,14 +8,9 @@ state={
 	state_category = town
 
 	history={
-		add_core_of = BAL
 		owner = BAL
-		victory_points = { #Varna
-			9783 5
-		}
-		victory_points = { #Burgas
-			9902 3
-		}
+		add_core_of = BAL
+
 		victory_points = { #Sliven
 			6967 3
 		}
@@ -31,15 +26,12 @@ state={
 			9783 = {
 				naval_base = 3
 			}
-			9902 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = BUL
 	}
 
 	provinces={
-		649 6967 9769 9783 9888 9902 9919
+		649 6967 9769 9888 
 	}
 
 	local_supplies=4.0 
