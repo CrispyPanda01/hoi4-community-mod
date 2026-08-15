@@ -10,8 +10,9 @@ state = {
 	}
 
 	history = {
+		add_core_of = ACG
 
-		owner = USA
+		owner = ACG
 		add_core_of = USA
 
 		buildings = {

@@ -26,4 +26,13 @@ spriteTypes = {
 		name = "GFX_portrait_ALI_marvin_the_alien_small"
 		texturefile = "gfx/interface/ideas/idea_ALI_marvin_the_alien.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ACG_donald_trump"
+		texturefile = "gfx/leaders/ACG/portrait_ACG_donald_trump.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ACG_donald_trump_small"
+		texturefile = "gfx/interface/ideas/idea_ACG_donald_trump.dds"
+	}
 }

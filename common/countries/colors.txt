@@ -1261,3 +1261,8 @@ PAC = {
 	color = rgb { 148 25 42 }
 	color_ui = rgb { 53 73 100 }
 }
+
+ACG = {
+	color = rgb { 50 90 172 }
+	color_ui = rgb { 67 123 237 }
+}
