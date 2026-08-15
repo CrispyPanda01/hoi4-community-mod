@@ -11,7 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = USA
+		add_core_of = CSA
+		owner = CSA
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3

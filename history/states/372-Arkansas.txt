@@ -12,7 +12,8 @@ state={
 
 
 	history={
-		owner = USA
+		add_core_of = CSA
+		owner = CSA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
