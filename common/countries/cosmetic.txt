@@ -281,6 +281,11 @@ MEX_cristero = {
 	color_ui = rgb { 200 255 200 }
 }
 
+POL_PUPPET = {
+	color = rgb { 194 82 119 }
+	color_ui = rgb { 194 82 119 }
+}
+
 ENG_imperial_federation_unified = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 255 0 0 }
