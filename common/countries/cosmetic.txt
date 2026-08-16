@@ -3,6 +3,11 @@ MAL_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+CLT_Puppet = {
+    color = rgb {  60 160 102  }
+    color_ui = rgb {  60 160 102  }
+}
+
 RAJ_UK = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }

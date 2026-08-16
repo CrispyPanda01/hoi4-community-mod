@@ -488,6 +488,138 @@ focus = {
 	}
 	
 focus = {
+		id = CLT_Liberate_Brittany
+		icon = GFX_goal_generic_consumer_goods
+		x = -3
+		y = 7
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Purge_Anti_Celtists
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			
+		start_border_war = {
+				change_state_after_war = yes
+			 	attacker = {
+			 		state = 1090
+					num_provinces = 3
+			 		on_win = transfer_state = 14 
+					on_lose = 
+			 	}	
+			 	defender = {
+			 		state = 14
+					num_provinces = 1
+				}
+			 }
+		}
+	}
+	
+	focus = {
+		id = CLT_Reintegrate_the_Britons
+		icon = GFX_goal_generic_consumer_goods
+		x = -5
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		controls_state = 14
+		}
+		
+	prerequisite = {
+	focus = CLT_Liberate_Brittany
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+		add_state_core = 14
+                        }
+		}
+		
+	focus = {
+		id = CLT_Reintroduce_Gaullic_traditions
+		icon = GFX_goal_generic_consumer_goods
+		x = -5
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		controls_state = 14
+		}
+		
+	prerequisite = {
+	focus = CLT_Reintegrate_the_Britons
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+		add_state_core = 14
+                        }
+		}
+	
+	focus = {
+		id = CLT_Offer_to_Victoria
+		icon = GFX_goal_generic_consumer_goods
+		x = -1
+		y = 8
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+	prerequisite = {
+	focus = CLT_Liberate_Brittany
+	 }
+		bypass = {
+
+		}
+
+		completion_reward = {
+		
+	GER = {
+	country_event = {
+	id = germany.1
+	days = 3 
+	 }
+                        }
+		}
+	}
+	
+focus = {
 		id = CLT_Kick_out_Bretons_from_Ireland
 		icon = GFX_goal_generic_consumer_goods
 		x = 4

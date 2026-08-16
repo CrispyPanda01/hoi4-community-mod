@@ -17,6 +17,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+	create_country_leader = {
+			name = "Marc Augier"
+			desc = ""
+			picture = Portrait_France_Philippe_Petain.dds		
+			expire = "1965.1.1"
+			ideology = celtic_thoughts
+			traits = {
+				dictator
+			}
+		}
+
 set_popularities = {
 	neutrality = 0
 	democratic = 0

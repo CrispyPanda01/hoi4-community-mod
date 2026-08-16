@@ -1,0 +1,120 @@
+Celtic_puppets_cat = {
+
+	Restore_Alba = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+		
+visible = {
+	has_completed_focus =  CLT_Avenge_1920 
+}
+
+		
+		available = {
+	controls_state = 120
+	controls_state = 136
+	controls_state = 133
+	controls_state = 121
+	NOT = {
+	has_war = yes
+	 }
+		}
+		
+		complete_effect = {
+	release = SCO
+		set_autonomy = {
+		target = SCO
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	}
+	SCO = {
+	set_cosmetic_tag = CLT_Puppet
+	 }
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	} 
+	
+	Reintigrate_Cymru = {
+		icon = generic_industry
+		cost = 10
+		fire_only_once = yes
+		
+visible = {
+	has_completed_focus =  CLT_Avenge_1920 
+}
+
+		
+		available = {
+	controls_state = 122
+	NOT = {
+	has_war = yes
+	 }
+		}
+		
+		complete_effect = {
+    add_state_core = 122
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	Restore_Brittania = {
+		icon = generic_industry
+		cost = 10
+		fire_only_once = yes
+		
+visible = {
+	has_completed_focus =  CLT_Avenge_1920 
+}
+
+		
+		available = {
+	controls_state = 123
+	controls_state = 338
+	controls_state = 127
+	controls_state = 126
+	controls_state = 125
+	controls_state = 129
+	controls_state = 128
+	controls_state = 132
+	controls_state = 130
+	controls_state = 931
+	controls_state = 131
+	NOT = {
+	has_war = yes
+	 }
+		}
+		
+		complete_effect = {
+    ENG = {
+    transfer_state = 123
+	transfer_state = 338
+	transfer_state = 127
+	transfer_state = 126
+	transfer_state = 125
+	transfer_state = 129
+	transfer_state = 128
+	transfer_state = 132
+	transfer_state = 130
+	transfer_state = 931
+	transfer_state = 131
+	set_cosmetic_tag = CLT_Puppet
+	 }
+	set_autonomy = {
+		target = ENG
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.5
+	}
+	
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	}
+}

@@ -3,55 +3,52 @@ Celtic_war_cat = {
 	Sue_for_peace = {
 		icon = generic_industry
 		cost = 0
-		fire_only_once = no
-	    days_re_enable = 20
-		visible = {
-		always = yes
-		 }
-    available  = {
-	ENG = {
-	NOT = {
-	controls_state = 126
-	 }
-	has_war_with = {
-	tag = CLT
-	 }
+		fire_only_once = yes
 		
-	}
-	 }
-    days_remove = 20
-		complete_effect = {
-	every_country = {
-	white_peace = CLT
-	 }
-	CLT  = {
-	transfer_state = 123
-	transfer_state = 338
-	transfer_state = 127
-	transfer_state = 126
-	transfer_state = 125
-	transfer_state = 122
-	transfer_state = 128
-	transfer_state = 129
-	transfer_state = 130
-	transfer_state = 132
-	transfer_state = 931
-	transfer_state = 131
-	transfer_state = 121
-	transfer_state = 133
-	transfer_state = 136
-	transfer_state = 120
-	 }
-	CAN = {
-	annex_country = {
-	target = ENG
-	transfer_troops = yes
-	 }
+		visible = {
+			always = yes
 		}
+		
+		available = {
+			ENG = {
+				NOT = { controls_state = 126 }
+				has_war_with = CLT
+			}
+		}
+		
+		complete_effect = {
+			every_country = {
+				white_peace = CLT
+			}
+			
+			# Corrected state transfer syntax
+			931 = { transfer_state_to = CLT }
+			338 = { transfer_state_to = CLT }
+			120 = { transfer_state_to = CLT }
+			121 = { transfer_state_to = CLT }
+			122 = { transfer_state_to = CLT }
+			123 = { transfer_state_to = CLT }
+			125 = { transfer_state_to = CLT }
+			126 = { transfer_state_to = CLT }
+			127 = { transfer_state_to = CLT }
+			128 = { transfer_state_to = CLT }
+			129 = { transfer_state_to = CLT }
+			130 = { transfer_state_to = CLT }
+			131 = { transfer_state_to = CLT }
+			132 = { transfer_state_to = CLT }
+			133 = { transfer_state_to = CLT }
+			136 = { transfer_state_to = CLT }
+
+			CAN = {
+				annex_country = {
+					target = ENG
+					transfer_troops = yes
+				}
+			}
+		}
+		
 		ai_will_do = {
 			base = 10
 		}
-
-} 
-
- }
+	} 
+}

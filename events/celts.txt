@@ -1,0 +1,25 @@
+add_namespace = celt
+
+#Celts rise in Scotland
+country_event = {
+	id = celt.1
+	title = celt.1.t
+	desc = celt.1.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = celt.1.a
+		
+		# Corrected state scope and unit creation
+		126 = {
+			create_unit = { 
+				division = "Scottish Partisans" 
+				division_template = "Celtic Division" 
+				start_experience_factor = 0.5
+				owner = CLT
+			}
+		}
+	}
+}

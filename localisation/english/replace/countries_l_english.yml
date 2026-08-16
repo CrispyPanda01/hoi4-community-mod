@@ -1,5 +1,15 @@
 ﻿l_english:
 
+ JAP: "Islamic Republic of Japan"
+ JAP_DEF: "The Islamic Republic of Japan"
+ JAP_ADJ: "Japanese"
+ JAP_communism: "PRIJ"
+ JAP_communism_DEF: "The People's Republic of Islamic Japan"
+ JAP_neutrality: "Empire of Japan"
+ JAP_neutrality_DEF: "The Empire of Japan"
+ JAP_fascism: "Japanese Caliphate"
+ JAP_fascism_DEF: "The Japanese Caliphate"
+
  CIR_neutrality: "Circle Land"
  CIR_neutrality_DEF: "the Circle Land"
  CIR_neutrality_ADJ: "Circlian"
