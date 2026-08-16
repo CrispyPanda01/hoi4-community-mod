@@ -15,6 +15,12 @@ state={
 		victory_points = { #Burgas
 			9902 3
 		}
+		buildings = {
+			9783 = {
+				naval_base = 3
+			}
+		}
+	}
 	manpower=121324
 	state_category = pastoral
 	buildings_max_level_factor=1

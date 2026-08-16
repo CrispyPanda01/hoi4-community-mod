@@ -6,8 +6,6 @@ state={
 	history={
 		add_core_of = BAL
 		owner = BAL
-		victory_points = {
-		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3

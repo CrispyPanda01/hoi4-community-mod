@@ -2,9 +2,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
-480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
-2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
+2455;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
@@ -215,7 +214,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6691;6687;impassable;-1;-1;-1;-1;-1;;austrian alps
 6691;9650;impassable;-1;-1;-1;-1;-1;;austrian alps
 9650;3684;impassable;-1;-1;-1;-1;-1;;austrian alps
-3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 13058;10245;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;12512;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;10636;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
@@ -252,5 +250,3 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1428;13395;sea;812;-1;-1;-1;-1;;Padang-Islands
 -1;-1;;-1;-1;-1;-1;-1;-1 
 #Start province ID;End province ID;Adjacency type;Through province ID;Starting X position;Starting Y position;Ending X position;Ending Y position;Adjacency rule;Comment
-
-
