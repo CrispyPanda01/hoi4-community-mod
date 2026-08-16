@@ -7,12 +7,19 @@ state = {
 	}
 
 	history = {
+		add_core_of = CCC
+		add_core_of = CAC
 
-		owner = CAN
+		owner = CAC
 		add_core_of = CAN
 
 		buildings = {
 			infrastructure = 1
+		}
+		
+		CAN = {
+			set_province_controller=13315
+			set_province_controller=761
 		}
 
 	}

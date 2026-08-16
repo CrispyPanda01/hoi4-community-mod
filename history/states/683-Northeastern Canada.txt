@@ -6,7 +6,9 @@ state={
 	}
 
 	history={
-		owner = CAN
+		add_core_of = CCC
+		add_core_of = CAC
+		owner = CCC
 		buildings = {
 			infrastructure = 1
 

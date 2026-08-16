@@ -11,7 +11,9 @@ state={
 	state_category = town
 
 	history={
-		owner = CAN
+		add_core_of = CCC
+		add_core_of = CAC
+		owner = CAC
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -25,6 +27,15 @@ state={
 		add_core_of = CAN
 		victory_points = {
 			1408 15 
+		}
+		
+		CAN = {
+			set_province_controller=10228
+			set_province_controller=10258
+			set_province_controller=12231
+			set_province_controller=4385
+			set_province_controller=4870
+			set_province_controller=10273
 		}
 	}
 

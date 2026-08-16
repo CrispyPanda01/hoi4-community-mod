@@ -3,6 +3,8 @@ state={
 	name="STATE_471"
 
 	history={
+		add_core_of = CCC
+		add_core_of = CAC
 		owner = CAN
 		buildings = {
 			infrastructure = 1
@@ -13,6 +15,12 @@ state={
 
 		}
 		add_core_of = CAN
+		CAC = {
+			set_province_controller=1411
+			set_province_controller=917
+			set_province_controller=12508
+			set_province_controller=12571
+		}
 
 	}
 

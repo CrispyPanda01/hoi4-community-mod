@@ -6,6 +6,8 @@ state = {
 	state_category = rural
 
 	history = {
+		add_core_of = CCC
+		add_core_of = CAC
 
 		owner = CAN
 		add_core_of = CAN
@@ -24,6 +26,12 @@ state = {
 
 		victory_points = {
 			4285 1 
+		}
+		
+		QUE = {
+			set_province_controller=7379
+			set_province_controller=4362
+			set_province_controller=634
 		}
 		
 	}

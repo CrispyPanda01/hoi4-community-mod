@@ -1,0 +1,31 @@
+##### Commune of Canada - original civil-war OOB #####
+division_template = {
+	name = "Communard Rifle Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = { engineer = { x = 0 y = 0 } }
+}
+division_template = {
+	name = "Popular Militia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+units = {
+	division = { name = "1st Communard Rifle Division" location = 5239 division_template = "Communard Rifle Division" start_experience_factor = 0.2 start_equipment_factor = 0.65 }
+	division = { name = "1st Communard Popular Militia" location = 5239 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.5 }
+	division = { name = "2nd Communard Rifle Division" location = 5239 division_template = "Communard Rifle Division" start_experience_factor = 0.2 start_equipment_factor = 0.65 }
+	division = { name = "2nd Communard Popular Militia" location = 5239 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.5 }
+}

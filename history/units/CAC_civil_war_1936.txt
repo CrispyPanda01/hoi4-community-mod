@@ -1,0 +1,44 @@
+##### Canadian Federation - original civil-war OOB #####
+division_template = {
+	name = "Federal Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Popular Militia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+units = {
+	# Regular forces outside the Southern Ontario resistance pockets
+	division = { name = "1st Federal Infantry Division" location = 1411 division_template = "Federal Infantry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "2nd Federal Infantry Division" location = 917 division_template = "Federal Infantry Division" start_experience_factor = 0.2 start_equipment_factor = 0.7 }
+	division = { name = "3rd Federal Infantry Division" location = 11571 division_template = "Federal Infantry Division" start_experience_factor = 0.2 start_equipment_factor = 0.7 }
+	division = { name = "4th Federal Infantry Division" location = 10585 division_template = "Federal Infantry Division" start_experience_factor = 0.2 start_equipment_factor = 0.7 }
+	division = { name = "5th Federal Infantry Division" location = 7782 division_template = "Federal Infantry Division" start_experience_factor = 0.2 start_equipment_factor = 0.7 }
+
+	# One Popular Militia division in each Southern Ontario resistance pocket
+	division = { name = "1st Ontario Resistance Militia" location = 9667 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.55 }
+	division = { name = "2nd Ontario Resistance Militia" location = 11728 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.55 }
+	division = { name = "3rd Ontario Resistance Militia" location = 3661 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.55 }
+	division = { name = "4th Ontario Resistance Militia" location = 3605 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.55 }
+
+	division = { name = "Northern Federal Popular Militia" location = 4875 division_template = "Popular Militia" start_experience_factor = 0.1 start_equipment_factor = 0.5 }
+}

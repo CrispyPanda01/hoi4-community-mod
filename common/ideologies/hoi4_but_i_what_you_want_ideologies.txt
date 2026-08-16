@@ -1,6 +1,6 @@
 ideologies = {
 
-Idealistic_Socialism = {
+    Idealistic_Socialism = {
         types = {
             long_march = {
             }

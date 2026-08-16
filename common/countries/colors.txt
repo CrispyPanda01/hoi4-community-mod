@@ -1271,3 +1271,13 @@ MEG = {
 	color = rgb { 72 81 99 }
 	color_ui = rgb { 67 123 237 }
 }
+
+CAC = {
+	color = rgb { 114 74 74 }
+	color_ui = rgb { 53 73 100 }
+}
+
+CCC = {
+	color = rgb { 142 26 26 }
+	color_ui = rgb { 53 73 100 }
+}

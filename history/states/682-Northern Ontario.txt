@@ -12,6 +12,8 @@ state = {
 	}
 
 	history = {
+		add_core_of = CCC
+		add_core_of = CAC
 
 		owner = CAN
 		add_core_of = CAN
@@ -23,6 +25,11 @@ state = {
 		
 		victory_points = {
 			7899 1 
+		}
+		
+		CAC = {
+			set_province_controller=11571
+			set_province_controller=4875
 		}
 
 	}

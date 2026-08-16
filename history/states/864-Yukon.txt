@@ -5,6 +5,8 @@ state = {
 	state_category = wasteland
 	
 	history = {
+		add_core_of = CCC
+		add_core_of = CAC
 		owner = CAN
 		add_core_of = CAN
 	}

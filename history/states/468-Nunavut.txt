@@ -10,8 +10,10 @@ state = {
 	}
 
 	history = {
+		add_core_of = CCC
+		add_core_of = CAC
 
-		owner = CAN
+		owner = QUE
 		add_core_of = CAN
 		add_core_of = QUE
 
