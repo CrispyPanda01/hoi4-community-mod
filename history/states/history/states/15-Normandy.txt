@@ -1,0 +1,14 @@
+state={
+	id=15
+	name="STATE_15"
+	resources={
+		steel=21
+	}
+	provinces={
+		485 539 553 3534 3549 6569 6599 9434 9534 9578 11521 11535 11563 
+	}
+	manpower=2332100
+	buildings_max_level_factor=1
+	state_category=city
+	local_supplies=0
+}
