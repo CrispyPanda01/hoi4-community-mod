@@ -1,0 +1,14 @@
+state = {
+	id = 1106
+	name = "STATE_1106"
+	manpower = 0
+	state_category = rural
+	history = {
+		add_core_of = SEA
+		owner = SEA
+	}
+	provinces = {
+		13427 13495
+	}
+	local_supplies = 0.0
+}

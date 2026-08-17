@@ -35,4 +35,13 @@ spriteTypes = {
 		name = "GFX_portrait_ACG_donald_trump_small"
 		texturefile = "gfx/interface/ideas/idea_ACG_donald_trump.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_SEA_captain_mcfish"
+		texturefile = "gfx/leaders/SEA/portrait_SEA_captain_mcfish.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SEA_captain_mcfish_small"
+		texturefile = "gfx/interface/ideas/idea_SEA_captain_mcfish.dds"
+	}
 }

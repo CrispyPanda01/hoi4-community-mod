@@ -1281,3 +1281,13 @@ CCC = {
 	color = rgb { 142 26 26 }
 	color_ui = rgb { 53 73 100 }
 }
+
+SEA = {
+	color = rgb { 123 72 173 }
+	color_ui = rgb { 53 73 100 }
+}
+
+CHE = {
+	color = rgb { 47 93 163 }
+	color_ui = rgb { 53 73 100 }
+}

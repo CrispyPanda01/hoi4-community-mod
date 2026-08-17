@@ -1,0 +1,17 @@
+characters = {
+
+	SEA_captain_mcfish = {
+		name = "Captain McFish"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SEA_captain_mcfish
+				small = GFX_portrait_SEA_captain_mcfish_small
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
