@@ -11,7 +11,6 @@ state={
 
 	history={
 		victory_points = { 9434 10 }
-		victory_points = { 6449 3 }
 		victory_points = { 11563 5 }
 		victory_points = { 485 3 }
 		owner = FRA
@@ -39,7 +38,7 @@ state={
 	}
 
 	provinces={
-		485 539 553 3534 3549 3579 6449 6569 6599 9434 9534 9550 9578 11521 11535 11563
+		485 539 553 3534 3549 6569 6599 9434 9534 9578 11521 11535 11563
 	}
 
 	local_supplies=0.0 

@@ -24,6 +24,8 @@ country_event = {
 		hidden_effect = {
 			ALI = {
 				transfer_state = 1096
+				transfer_state = 1104
+				transfer_state = 1105
 				add_manpower = 10000000
 				division_template = {
 					name = "Alien Division"
@@ -53,6 +55,25 @@ country_event = {
 						division = "name = \"Alien Division\" division_template = \"Alien Division\" start_experience_factor = 1"
 						owner = ALI
 						count = 120
+					
+					}					
+				}
+				
+				1104 = {
+					add_core_of = ALI
+					create_unit = {
+						division = "name = \"Alien Division\" division_template = \"Alien Division\" start_experience_factor = 1"
+						owner = ALI
+						count = 80
+					
+					}					
+				}
+			1105 = {
+					add_core_of = ALI
+					create_unit = {
+						division = "name = \"Alien Division\" division_template = \"Alien Division\" start_experience_factor = 1"
+						owner = ALI
+						count = 50
 					
 					}					
 				}
