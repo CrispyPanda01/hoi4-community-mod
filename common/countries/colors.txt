@@ -1291,3 +1291,23 @@ CHE = {
 	color = rgb { 47 93 163 }
 	color_ui = rgb { 53 73 100 }
 }
+
+KIE = {
+	color = rgb { 99 26 26 }
+	color_ui = rgb { 53 73 100 }
+}
+
+SAI = {
+	color = rgb { 48 28 57 }
+	color_ui = rgb { 53 73 100 }
+}
+
+CSP = {
+	color = rgb { 140 120 214 }
+	color_ui = rgb { 53 73 100 }
+}
+
+LOV = {
+	color = rgb { 142 136 126 }
+	color_ui = rgb { 53 73 100 }
+}

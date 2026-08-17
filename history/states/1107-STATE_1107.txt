@@ -1,0 +1,25 @@
+state = {
+	id = 1107
+	name = "STATE_1107"
+	manpower = 800000
+	state_category = rural
+	history = {
+		add_core_of = KIE
+		# Kiel
+		victory_points = { 6389 10 }
+		buildings = {
+			6389 = {
+				naval_base = 8	
+			}
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		owner = KIE
+		add_core_of = GER
+	}
+	provinces = {
+		6389 11331
+	}
+	local_supplies = 0.0
+}

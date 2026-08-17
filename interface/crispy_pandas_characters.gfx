@@ -44,4 +44,13 @@ spriteTypes = {
 		name = "GFX_portrait_SEA_captain_mcfish_small"
 		texturefile = "gfx/interface/ideas/idea_SEA_captain_mcfish.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KIE_rosa_luxemburg"
+		texturefile = "gfx/leaders/KIE/portrait_KIE_rosa_luxemburg.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KIE_rosa_luxemburg_small"
+		texturefile = "gfx/interface/ideas/idea_KIE_rosa_luxemburg.dds"
+	}
 }

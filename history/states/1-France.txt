@@ -7,7 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = FRA
+		add_core_of = CSP
+		owner = CSP
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 2

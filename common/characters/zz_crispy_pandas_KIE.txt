@@ -1,0 +1,17 @@
+characters = {
+
+	KIE_rosa_luxemburg = {
+		name = "Rosa Luxemburg"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KIE_rosa_luxemburg
+				small = GFX_portrait_KIE_rosa_luxemburg_small
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}
