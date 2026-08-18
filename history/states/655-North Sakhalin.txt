@@ -12,10 +12,8 @@ state = {
 	state_category = pastoral
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = FER
-		add_core_of = ANU
+		owner = B03
+		add_core_of = B03
 		add_claim_by = JAP
 
 		buildings = {
