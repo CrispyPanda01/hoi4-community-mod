@@ -1,0 +1,30 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+korea_border_war_cat = {
+	priority = 90
+	picture = generic_border_conflicts
+	icon = generic_border_conflicts
+	
+	allowed = {
+		original_tag = KOR
+	}
+	visible = { original_tag = KOR }
+
+	on_map_area = {
+		state = 328
+		name = KOR_manchuria_map_area
+		zoom = 500
+	}
+	on_map_area = {
+		state = 528
+		name = KOR_japan_map_area
+		zoom = 650
+	}
+}

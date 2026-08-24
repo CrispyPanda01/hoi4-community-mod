@@ -1,0 +1,1728 @@
+korea_border_war_cat = {
+
+	KOR_recover_hamgyong = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 527
+				state = 1028
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 527
+			NOT = {
+				controls_state = 1028
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 527
+			1028 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 527
+					defender = 1028
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 527
+					num_provinces = 3
+					on_win = korea_border_war.1028
+				}
+				defender = {
+					state = 1028
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_recover_north_korea = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 525
+				state = 527
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 525
+			NOT = {
+				controls_state = 527
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 525
+			527 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 525
+					defender = 527
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 525
+					num_provinces = 3
+					on_win = korea_border_war.527
+				}
+				defender = {
+					state = 527
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_recover_gangwon = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 525
+				state = 1029
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 525
+			NOT = {
+				controls_state = 1029
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 525
+			1029 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 525
+					defender = 1029
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 525
+					num_provinces = 3
+					on_win = korea_border_war.1029
+				}
+				defender = {
+					state = 1029
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_recover_south_korea = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1029
+				state = 525
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 1029
+			NOT = {
+				controls_state = 525
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 1029
+			525 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 1029
+					defender = 525
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 1029
+					num_provinces = 3
+					on_win = korea_border_war.525
+				}
+				defender = {
+					state = 525
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_recover_gyeongsang = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1029
+				state = 1030
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 1029
+			NOT = {
+				controls_state = 1030
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 1029
+			1030 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 1029
+					defender = 1030
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 1029
+					num_provinces = 3
+					on_win = korea_border_war.1030
+				}
+				defender = {
+					state = 1030
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_recover_chungcheong = {
+
+		icon = border_war
+		cost = 20
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 525
+				state = 1031
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 525
+			NOT = {
+				controls_state = 1031
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 525
+			1031 = {
+				NOT = {
+					is_controlled_by = ROOT
+				}
+
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 525
+					defender = 1031
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 7
+				attacker = {
+					state = 525
+					num_provinces = 3
+					on_win = korea_border_war.1031
+				}
+				defender = {
+					state = 1031
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 10
+		}
+
+	}
+
+	KOR_border_war_kirin = {
+
+		icon = border_war
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1028
+				state = 328
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		cost = 50
+		fire_only_once = no
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			NOT = {
+				controls_state = 328
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 1028
+			328 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 1028
+					defender = 328
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 1028
+					num_provinces = 4
+					on_win = korea_border_war.328
+				}
+				defender = {
+					state = 328
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_liaotung = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 328
+				state = 716
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 328
+			NOT = {
+				controls_state = 716
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 328
+			716 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 328
+					defender = 716
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 328
+					num_provinces = 4
+					on_win = korea_border_war.716
+				}
+				defender = {
+					state = 716
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_liaoning = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 328
+				state = 715
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 328
+			NOT = {
+				controls_state = 715
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 328
+			715 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 328
+					defender = 715
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 328
+					num_provinces = 4
+					on_win = korea_border_war.715
+				}
+				defender = {
+					state = 715
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 7
+		}
+
+	}
+
+	KOR_border_war_dalian = {
+
+		icon = border_war
+		cost = 40
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 716
+				state = 745
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 716
+			NOT = {
+				controls_state = 745
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 716
+			745 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 716
+					defender = 745
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 10
+				attacker = {
+					state = 716
+					num_provinces = 2
+					on_win = korea_border_war.745
+				}
+				defender = {
+					state = 745
+					num_provinces = 1
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_heilungkiang = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 328
+				state = 714
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 328
+			NOT = {
+				controls_state = 714
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 328
+			714 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 328
+					defender = 714
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 328
+					num_provinces = 4
+					on_win = korea_border_war.714
+				}
+				defender = {
+					state = 714
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 6
+		}
+
+	}
+
+	# A custom Jeju-Tsushima adjacency makes this simulated landing a real border war.
+	KOR_border_war_kyushu = {
+
+		icon = border_war
+		cost = 75
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1031
+				state = 528
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			NOT = {
+				controls_state = 528
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 1031
+			528 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_non_aggression_pact_with = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 1031
+					defender = 528
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 21
+				attacker = {
+					state = 1031
+					num_provinces = 2
+					modifier = -0.10
+					on_win = korea_border_war.528
+				}
+				defender = {
+					state = 528
+					num_provinces = 3
+					modifier = 0.10
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 4
+		}
+
+	}
+
+	KOR_border_war_chugoku = {
+
+		icon = border_war
+		cost = 50
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 528
+				state = 529
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 528
+			NOT = {
+				controls_state = 529
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 528
+			529 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 528
+					defender = 529
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 528
+					num_provinces = 3
+					on_win = korea_border_war.529
+				}
+				defender = {
+					state = 529
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_kansai = {
+
+		icon = border_war
+		cost = 55
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 529
+				state = 531
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 529
+			NOT = {
+				controls_state = 531
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 529
+			531 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 529
+					defender = 531
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 529
+					num_provinces = 4
+					on_win = korea_border_war.531
+				}
+				defender = {
+					state = 531
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_tokai = {
+
+		icon = border_war
+		cost = 55
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 531
+				state = 532
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 531
+			NOT = {
+				controls_state = 532
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 531
+			532 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 531
+					defender = 532
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 531
+					num_provinces = 4
+					on_win = korea_border_war.532
+				}
+				defender = {
+					state = 532
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_kanto = {
+
+		icon = border_war
+		cost = 75
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 532
+				state = 282
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 532
+			NOT = {
+				controls_state = 282
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 532
+			282 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 532
+					defender = 282
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 100
+				minimum_duration_in_days = 21
+				attacker = {
+					state = 532
+					num_provinces = 5
+					on_win = korea_border_war.282
+				}
+				defender = {
+					state = 282
+					num_provinces = 5
+					modifier = 0.10
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 6
+		}
+
+	}
+
+	# Remaining Manchurian states
+	KOR_border_war_chuho = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 328
+				state = 717
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 328
+			NOT = {
+				controls_state = 717
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 328
+			717 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 328
+					defender = 717
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 328
+					num_provinces = 4
+					on_win = korea_border_war.717
+				}
+				defender = {
+					state = 717
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 7
+		}
+
+	}
+
+	KOR_border_war_jehol = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 715
+				state = 610
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 715
+			NOT = {
+				controls_state = 610
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 715
+			610 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 715
+					defender = 610
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 715
+					num_provinces = 4
+					on_win = korea_border_war.610
+				}
+				defender = {
+					state = 610
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 7
+		}
+
+	}
+
+	KOR_border_war_hulunbuir = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 714
+				state = 761
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 714
+			NOT = {
+				controls_state = 761
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 714
+			761 = {
+				is_controlled_by = MTT
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 714
+					defender = 761
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 714
+					num_provinces = 3
+					on_win = korea_border_war.761
+				}
+				defender = {
+					state = 761
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 6
+		}
+
+	}
+
+	KOR_border_war_south_kyushu = {
+
+		icon = border_war
+		cost = 40
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 528
+				state = 1018
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 528
+			NOT = {
+				controls_state = 1018
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 528
+			1018 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 528
+					defender = 1018
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 10
+				attacker = {
+					state = 528
+					num_provinces = 3
+					on_win = korea_border_war.1018
+				}
+				defender = {
+					state = 1018
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_sanin = {
+
+		icon = border_war
+		cost = 40
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 529
+				state = 1020
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 529
+			NOT = {
+				controls_state = 1020
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 529
+			1020 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 529
+					defender = 1020
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 10
+				attacker = {
+					state = 529
+					num_provinces = 3
+					on_win = korea_border_war.1020
+				}
+				defender = {
+					state = 1020
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_shikoku = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 529
+				state = 530
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 529
+			NOT = {
+				controls_state = 530
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 529
+			530 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 529
+					defender = 530
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 10
+				attacker = {
+					state = 529
+					num_provinces = 3
+					on_win = korea_border_war.530
+				}
+				defender = {
+					state = 530
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_hokuriku = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 532
+				state = 535
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 532
+			NOT = {
+				controls_state = 535
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 532
+			535 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 532
+					defender = 535
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 532
+					num_provinces = 3
+					on_win = korea_border_war.535
+				}
+				defender = {
+					state = 535
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_koshinetsu = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 535
+				state = 534
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 535
+			NOT = {
+				controls_state = 534
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 535
+			534 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 535
+					defender = 534
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 535
+					num_provinces = 3
+					on_win = korea_border_war.534
+				}
+				defender = {
+					state = 534
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_south_tohoku = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 282
+				state = 1019
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 282
+			NOT = {
+				controls_state = 1019
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 282
+			1019 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 282
+					defender = 1019
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 282
+					num_provinces = 4
+					on_win = korea_border_war.1019
+				}
+				defender = {
+					state = 1019
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_north_tohoku = {
+
+		icon = border_war
+		cost = 45
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1019
+				state = 533
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 1019
+			NOT = {
+				controls_state = 533
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 1019
+			533 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 1019
+					defender = 533
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 80
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 1019
+					num_provinces = 4
+					on_win = korea_border_war.533
+				}
+				defender = {
+					state = 533
+					num_provinces = 4
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 8
+		}
+
+	}
+
+	KOR_border_war_hokkaido = {
+
+		icon = border_war
+		cost = 55
+		fire_only_once = no
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 533
+				state = 536
+			}
+			highlight_color_before_active = 2
+			highlight_color_while_active = 3
+		}
+		allowed = {
+			original_tag = KOR
+		}
+		visible = {
+			controls_state = 533
+			NOT = {
+				controls_state = 536
+			}
+
+		}
+		available = {
+			has_war = no
+			controls_state = 533
+			536 = {
+				is_controlled_by = JAP
+			}
+			NOT = {
+				has_border_war_between = {
+					attacker = 533
+					defender = 536
+				}
+
+			}
+
+		}
+		complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				combat_width = 60
+				minimum_duration_in_days = 14
+				attacker = {
+					state = 533
+					num_provinces = 3
+					on_win = korea_border_war.536
+				}
+				defender = {
+					state = 536
+					num_provinces = 3
+				}
+
+			}
+
+		}
+		ai_will_do = {
+			base = 7
+		}
+
+	}
+
+}

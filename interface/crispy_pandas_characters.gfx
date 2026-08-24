@@ -53,4 +53,13 @@ spriteTypes = {
 		name = "GFX_portrait_KIE_rosa_luxemburg_small"
 		texturefile = "gfx/interface/ideas/idea_KIE_rosa_luxemburg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_uma_musume"
+		texturefile = "gfx/leaders/KOR/portrait_KOR_uma_musume.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_uma_musume_small"
+		texturefile = "gfx/interface/ideas/idea_KOR_uma_musume.dds"
+	}
 }

@@ -1,0 +1,17 @@
+characters = {
+
+	KOR_uma_musume = {
+		name = "Uma Musume"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOR_uma_musume
+				small = GFX_portrait_KOR_uma_musume_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

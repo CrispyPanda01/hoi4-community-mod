@@ -1,0 +1,272 @@
+add_namespace = korea_border_war
+
+# Only a Korean victory transfers territory. A defeat has deliberately no callback.
+country_event = {
+	id = korea_border_war.282
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 282
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.328
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 328
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.714
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 714
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.715
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 715
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.716
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 716
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.745
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 745
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.528
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 528
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.529
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 529
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.531
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 531
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.532
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 532
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.610
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 610
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.717
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 717
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.761
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 761
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.530
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 530
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.533
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 533
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.534
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 534
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.535
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 535
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.536
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 536
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1018
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1018
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1019
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1019
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1020
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1020
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.525
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 525
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.527
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 527
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1028
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1028
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1029
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1029
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1030
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1030
+	}
+
+}
+
+country_event = {
+	id = korea_border_war.1031
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		transfer_state = 1031
+	}
+
+}
