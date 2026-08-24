@@ -7,9 +7,9 @@ state = {
 	state_category = small_island
 
 	history = {
+		add_core_of = NZL
 
-		owner = FRA
-		add_core_of = VAN
+		owner = NZL
 
 		victory_points = {
 			12120 1 # Port Vila 
