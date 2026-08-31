@@ -98,6 +98,9 @@ country_event = {
 					type = liberate_wargoal
 				}					
 			}
+		every_state = {
+		add_claim_by = ALI
+		 }
 		}
 	}
 
@@ -108,3 +111,28 @@ country_event = {
 		name = alien.1.b
 	}
 }
+#USA falls
+country_event = {
+	id = alien.2
+	title = alien.2.t
+	desc = alien.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+	NOT = {
+	country_exists = USA
+	}
+	 }
+
+	option = {
+		name = alien.1.a
+		
+	USA = {
+	transfer_state = 1
+	 }
+	}
+
+}	
