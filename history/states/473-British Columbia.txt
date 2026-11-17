@@ -13,6 +13,7 @@ state={
 	history={
 		add_core_of = CCC
 		add_core_of = CAC
+		add_core_of = CAS
 		owner = CAC
 		buildings = {
 			infrastructure = 3 #was: 5

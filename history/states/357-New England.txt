@@ -9,7 +9,8 @@ state={
 
 
 	history={
-		owner = USA
+		owner = NEE
+		add_core_of = NEE
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1

@@ -8,7 +8,7 @@ state = {
 	history = {
 		#Brescia
 		victory_points = { 773 3 }
-		owner = ITA
+		owner = LBV
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 7

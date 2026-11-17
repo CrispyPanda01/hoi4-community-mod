@@ -1,0 +1,161 @@
+focus_tree = {
+	id = korea_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	
+focus = {
+		id = KOR_Not_so_Pretty_Derby
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+focus = {
+		id = KOR_Somehow_were_in_Korea
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = KOR_Not_so_Pretty_Derby
+	 }
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+focus = {
+		id = KOR_coring_the_Manchus
+		icon = GFX_goal_generic_consumer_goods
+		x = -5
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+     controls_state = 716
+	 controls_state = 328
+	 controls_state = 717
+	 controls_state = 714
+	 controls_state = 761
+	 controls_state = 715
+	 controls_state = 745
+		 }
+		
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = KOR_Somehow_were_in_Korea
+	 }
+
+		completion_reward = {
+	every_state = {
+	limit = {
+	is_core_of = MAN
+	}
+	add_core_of = KOR
+	 }
+		}
+	}
+	
+focus = {
+		id = KOR_Horse_elections
+		icon = GFX_goal_generic_consumer_goods
+		x = -0
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		 }
+		
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = KOR_Somehow_were_in_Korea
+	 }
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = KOR_Headfall_into_Japan
+		icon = GFX_goal_generic_consumer_goods
+		x = 3
+		y = 2
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+		controls_state = 528
+		 }
+		
+		bypass = {
+
+		}
+		
+	prerequisite = {
+	focus = KOR_Somehow_were_in_Korea
+	 }
+
+		completion_reward = {
+		add_state_core = 528
+		}
+	}

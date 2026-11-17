@@ -1,0 +1,38 @@
+state={
+	id=1109
+	name="STATE_1109"
+	provinces={
+		1584 7388 12752 
+	}
+	history={
+		add_core_of = CSA
+		owner = ALB
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 8
+			1572 = {
+				naval_base = 2
+			}
+			1843 = {
+				naval_base = 5
+			}
+			7388 = {
+				naval_base = 3
+			}
+			10352 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			1843 5 
+		}
+
+	}
+	manpower=3242385
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = town
+}

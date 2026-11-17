@@ -5,7 +5,8 @@ state={
 		10960 12965 
 	}
 	history={
-		owner = BRA
+		owner = AUS
+		add_core_of = AUS
 		add_core_of = BRA
 	}
 	manpower=7683

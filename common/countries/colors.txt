@@ -1,3 +1,15 @@
+NEE = {
+    color = rgb {3 84 42}
+    color_ui = rgb { 3 84 42 }
+}
+CAL = {
+    color = rgb {255 178 127}
+    color_ui = rgb {255 178 127}
+}
+CAS = {
+    color = rgb {3 84 42}
+    color_ui = rgb { 3 84 42 }
+}
 GER = {
     color = HSV { 0.1 0.15 0.4 }
     color_ui = rgb { 138 155 116 }
@@ -10,6 +22,7 @@ SOV = {
     color = rgb { 125 13 24 }
     color_ui = rgb { 163 17 31 }
 }
+
 SWE = {
     color = rgb { 36 132 247 }
     color_ui = rgb { 47 172 255 }

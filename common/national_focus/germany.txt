@@ -8161,7 +8161,6 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = fascism
 			42 = { is_fully_controlled_by = ROOT } #RHINELAND
 			51 = { is_fully_controlled_by = ROOT } #MOSSELLAND
 			978 = { is_fully_controlled_by = ROOT } #BADEN

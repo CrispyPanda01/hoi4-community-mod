@@ -59,4 +59,20 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.75
 	}
+	
+	division = {
+		name = "7th Korean Infantry Division"
+		location = 10115
+		division_template = "Korean Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "8th Korean Infantry Division"
+		location = 16928
+		division_template = "Korean Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
 }
